@@ -9,7 +9,7 @@ name = "A firewall should be up and running"
 description = """We expect that a firewall limits access for sensitive part of
 the server."""
 
-FIREWALL_NAMES = ["iptables", "ufw"]
+FIREWALL_NAMES = ["iptables", "ufw", "yunohost-firewall"]
 
 
 def run_check(config):
